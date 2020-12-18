@@ -17,8 +17,8 @@ int main() {
     move_sprite(0, 88, 78);
     SHOW_SPRITES;
 
-    while(1) {
-        switch(joypad()) {
+    while (1) {
+        switch (joypad()) {
             case J_LEFT:
                 scroll_sprite(0, -1, 0);
                 break;
